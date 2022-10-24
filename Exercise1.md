@@ -16,9 +16,9 @@ Prepare a scatter plot of both these sets of samples on the 2-D plane, with the 
 
 As discussed in the lecture, the simples neural network is the "Perceptron" 
 
-$
+$$
 f(\vec{x}; \vec{w},b) = \Phi(\sum w_i x_i - b) = \Phi(\vec{w}\cdot\vec{x} - b)
-$
+$$
 
 where $\Phi$ is the heaviside step function.
 
@@ -34,9 +34,9 @@ As above, we often will want to evaluate a function on many points at once. Ther
 
 One way to to this is via "matrix multiplication" 
 
-$
+$$
 r = \Phi(X w^T - b)
-$
+$$
 
 where $X$ is a (N,2) matrix and $w^T$ is the transpose of the weight vector $\vec{w}$ (i.e. column vector or (2,1) matrix)
 
