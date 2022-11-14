@@ -39,7 +39,7 @@ def theta_perceptron(X,pars):
 Write a function `multilayer_perceptron(X,pars)` that takes 9 parameters (3 for each artificial neurons: 2 weights and 1 bias) that can compute the $\theta(x)$ prediction for many input points at once (batched computation)
 
 
-### Step 4
+### Step 3
 
 Use this function to plot the contour of the multilayer perceptron
 
@@ -55,7 +55,7 @@ def plot_contour(func,pars):
 Try for example parameter vectors: `np.array([1,0,0,0,1,0,1,1,0])` or what every you like.
 
 
-### Step 5
+### Step 4
 
 Now comes the hard part!
 
@@ -77,7 +77,7 @@ def linear(X,pars):
    return out,grad_pars,grad_x
 ```
 
-### Step 6
+### Step 5
 
 With this in hadn you can now carefully piece back the gradients together.
 
@@ -109,7 +109,7 @@ gradient: [[0.02994724 0.05989447 0.02994724 0.03422541 0.06845082 0.03422541
   0.03422541 0.08556353 0.04278176]]
 ``` 
 
-### Step 7
+### Step 6
 
 ## Training the Multi-Layer Perceptron
 
