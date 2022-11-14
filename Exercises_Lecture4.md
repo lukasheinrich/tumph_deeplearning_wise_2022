@@ -180,3 +180,13 @@ Try learning on a dataset of 1000 samples and initialize the parameters with
 ### Going Beyond
 
 * Can you extend this to N hidden neurons?
+* If yes, try the following learning problem with e.g. 15 neurons
+
+```python
+def generate_data(N):
+    import sklearn.datasets as skld
+    X,z = skld.make_circles(N, noise = 0.1, factor=0.5)
+    return X,z
+```
+
+
