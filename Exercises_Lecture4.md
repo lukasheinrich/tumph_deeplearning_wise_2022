@@ -100,8 +100,8 @@ def multilayer_perceptron(X,pars):
 * Hint 2: The following would be a correct result
 
 ```python
-Xtest = np.array([[1.0,1.0]])
-pars = np.array([0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2])
+Xtest = np.array([[1.0,2.0]])
+pars = np.array([0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9])
 multilayer_perceptron(Xtest,pars)
 
 value: [0.9552123]
