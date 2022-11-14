@@ -69,7 +69,7 @@ $$
 To compute the gradient we need to also have the gradients $\frac{\partial \mathrm{Lin}}{\partial \vec{x}}$
 
 * Write a new function that also outputs the partial derivatives with respect to $\vec{x}$
-* Hint: the output shape of `grad_x` should be (1,3)!
+* Hint: the output shape of `grad_x` should be (1,2)!
 
 ```python
 def linear(X,pars):
