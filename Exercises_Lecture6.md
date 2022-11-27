@@ -33,9 +33,7 @@ To write a prediction system for digits, we need to figure out what the constrai
 
 What type of output do we need?
 
-As usual in prediction tasks we want to approximate the posterior $q_\phi(\mathrm{digit}|\mathrm{image}) \ \approx 
-p(\mathrm{digit}|\mathrm{image})$
-using out standard amortized variational inference setup where we optmize the risk
+As usual in prediction tasks we want to approximate the posterior $q_\phi(\mathrm{digit}|\mathrm{image})\approx p(\mathrm{digit}|\mathrm{image})$ using out standard amortized variational inference setup where we optmize the risk
 
 $$
 \mathrm{KL}(p||q) \to L = -\mathbb{E}_{p(\mathrm{images},\mathrm{labels})}\log q_\phi(\mathrm{digit}|\mathrm{image})
