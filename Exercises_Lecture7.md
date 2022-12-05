@@ -32,7 +32,7 @@ Create a ConvNet with the following structure
 
 * Conv 5 x 5 ( 1 -> 16 channels) -> ReLU -> MaxPool 2 x 2
 * Conv 3 x 3 ( 16 -> 16 channels) -> ReLU -> MaxPool 2 x 2
-* Conv 2 x 2 ( 16 -> 32 channels) -> ReLU -> MaxPool 2 x 2
+* Conv 2 x 2 ( 16 -> 32 channels) 
 
 
 Find out what the output on a random MNIST-like torch tensor is, i.e. `x = torch.randn(123,1,28,28)`
