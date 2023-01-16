@@ -44,6 +44,7 @@ Once data is embedded we can extract keys and values by a linear projection
 Implement the Attention-formula from above in a batched manner, such that for a input set of sequences `(N,10)`
 you get an output set of attention-weighted values `(N,1)`
 
+* to test use a random "single query" vector of shape `(1,att_dim)`
 * It's easiest when using the function `torch.einsum` which uses the Einstein summation you may be familiar with from special relativity
 * e.g. a "batched" dot product is performed using `einsum('bik,bjk->bij')` where `b` indicates the batch index, `i` and `j` are position indices and `k` are the coordinates of the vectors
 
