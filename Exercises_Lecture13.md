@@ -17,9 +17,9 @@ Derive an expression for the Jacobian $\frac{\partial y}{\partial x}$ and write 
 
 Using the Change of Variables Formula and the `torch.distributions` module write a function that evaluates the log-probability of a sample under the distribution
 
-$$ p(y = f_{A,b}(x)) $$ 
+$$p(y = f_{A,b}(x)) $$ 
 
-where $$ p(x) = \mathrm{Normal}(0,1) $$
+where $$p(x) = \mathrm{Normal}(0,1) $$
 
 ## Step 5
 
